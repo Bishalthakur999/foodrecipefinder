@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
   }
   @override
   void initState() {
-    // TODO: implement initState
+   
     super.initState();
     //getRecipes("Ladoo");
   }
@@ -58,32 +58,14 @@ class _HomeState extends State<Home> {
             ),
           ),
 
-          /*
-      * InWell - Tap,DoubleTaP,etc.
-      * Gesture Detector
-      *
-      * Hover - Color
-      * Tap - Splash
-      *
-      * Getsure -
-      * Swipe,'
-      *
-      * Card - elevation background color,radius child
-      *
-      * ClipRRect - Frame - Photo Rectangle
-      *
-      * ClipPath - Custom CLips
-      *
-      * positioned  - Stack - topleft , top,down,left - 2.2
-      *
-      * */
+         
           SingleChildScrollView(
             child: Column(
               children: [
                 //Search Bar
                 SafeArea(
                   child: Container(
-                    //Search Wala Container
+                  
 
                     padding: EdgeInsets.symmetric(horizontal: 8),
                     margin: EdgeInsets.symmetric(horizontal: 24, vertical: 20),
